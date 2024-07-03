@@ -1,0 +1,35 @@
+[
+    {
+        "id": 2,
+        "image_url": "cat1.jpg",
+        "pet_type": "Cat",
+        "pet_address": "222 Sycamore Lane, Lakeside, USA",
+        "user_information": {
+            "name": "Olivia Clark",
+            "phone_number": "01152363278",
+            "user_address": "222 Sycamore Lane, Lakeside, USA"
+        }
+    },
+    {
+        "id": 3,
+        "image_url": "dog2.webp",
+        "pet_type": "Dog",
+        "pet_address": "123 Main Street, Cityville, USA",
+        "user_information": {
+            "name": "John Doe",
+            "phone_number": "01152363287",
+            "user_address": "123 Main Street, Cityville, USA"
+        }
+    },
+    {
+        "id": 5,
+        "image_url": "cat4.webp",
+        "pet_type": "Cat",
+        "pet_address": "888 Cedar Street, Hilltop, USA",
+        "user_information": {
+            "name": "Sarah Taylor",
+            "phone_number": "01004883543",
+            "user_address": "888 Cedar Street, Hilltop, USA"
+        }
+    }
+]

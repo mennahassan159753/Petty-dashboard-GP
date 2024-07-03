@@ -1,0 +1,167 @@
+<div class="grid">
+	<div class="col-12">
+		<div class="card px-6 py-6">
+			<p-toast></p-toast>
+			<p-table #dt [value]="products" [columns]="cols" responsiveLayout="scroll" [rows]="10"
+				[globalFilterFields]="['fullname','country.name','representative.name','status']" [rows]="10"
+				[paginator]="true" [rowsPerPageOptions]="[10,20,30]" [showCurrentPageReport]="true"
+				currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+				[(selection)]="selectedProducts" selectionMode="multiple" [rowHover]="true" dataKey="id">
+				<ng-template pTemplate="caption">
+					<div class="flex flex-column md:flex-row md:justify-content-between md:align-items-center">
+						<h5 class="m-0">Accepted User Requests for Adding Pets for Adoption</h5>
+						<span class="block mt-2 md:mt-0 p-input-icon-left">
+							<i class="pi pi-search"></i>
+							<input pInputText type="text" (input)="onGlobalFilter(dt, $event)" placeholder="Search..."
+								class="w-full sm:w-auto" />
+						</span>
+					</div>
+				</ng-template>
+				<ng-template pTemplate="header">
+					<tr>
+						<th pSortableColumn="name">Name </th>
+						<th pSortableColumn="location">Address </th>
+						<th pSortableColumn="phone">Phone Number </th>
+
+
+						<th></th>
+					</tr>
+				</ng-template>
+				<ng-template pTemplate="body" let-product>
+					<tr>
+
+
+						<td style="width:30%; min-width:10rem;">
+							<span class="p-column-title">Name</span>
+							{{product.fullname}}
+						</td>
+
+						<td style="width:30%; min-width:8rem;">
+							<span class="p-column-title">Shipping Address</span>
+							{{product.address }}
+						</td>
+						<td style="width:30%; min-width:10rem;">
+							<span class="p-column-title">Phone Number</span>
+							{{product.phone_number}}
+						</td>
+
+						<td>
+							<div class="flex">
+
+								<button pButton type="button" class="p-button-secondary p-button-rounded mr-2"
+									(click)="editProduct(product.pet_information)">
+									Details</button>
+								<!-- <button pButton type="button" class="p-button-raised p-button-rounded mr-2"
+									(click)="completeProduct(product)">
+									Done</button> -->
+
+
+							</div>
+						</td>
+					</tr>
+				</ng-template>
+			</p-table>
+		</div>
+
+		<p-dialog [(visible)]="productDialog" [style]="{width: '450px'}" header="Pet Details" [modal]="true"
+			class="p-fluid">
+			<ng-template pTemplate="content">
+				<div *ngIf="selectedOrder">
+					<div class="card mt-3">
+						<img [src]="'assets/demo/images/product/pets/' + product.image_url" [alt]="product.image_url"
+							width="150" class="mt-0 mx-auto mb-5 block shadow-2" *ngIf="product.image_url">
+
+						<div class="field mb-2">
+							<label for="name">Name</label>
+							<input type="text" pInputText id="name" disabled="true" [(ngModel)]="product.name" required
+								autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !product.name}" />
+						</div>
+						<div class="formgrid grid">
+							<div class="field col">
+								<label for="age">Age</label>
+								<p-inputNumber id="age" [disabled]="true" [(ngModel)]="product.age"
+									locale="en-US"></p-inputNumber>
+							</div>
+						</div>
+						<div class="field mb-2">
+							<label for="gender">Gender</label>
+							<input type="text" pInputText id="name" disabled="true" [(ngModel)]="product.gender"
+								required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !product.gender}" />
+						</div>
+						<!-- <div class="formgrid grid">
+							<div class="field col">
+								<label for="age">Weight</label>
+								<p-inputNumber id="age" [disabled]="true" [(ngModel)]="product.weight"
+									locale="en-US"></p-inputNumber>
+							</div>
+						</div> -->
+						<div class="field mb-2">
+							<label for="description">Description</label>
+							<input type="text" pInputText id="description" disabled="true"
+								[(ngModel)]="product.description" required autofocus
+								[ngClass]="{'ng-invalid ng-dirty' : submitted && !product.description}" />
+
+						</div>
+						<div class="field mb-2">
+							<label for="species">Species</label>
+							<input type="text" pInputText id="species" disabled="true" [(ngModel)]="product.species"
+								required autofocus
+								[ngClass]="{'ng-invalid ng-dirty' : submitted && !product.species}" />
+							<small class="ng-dirty ng-invalid" *ngIf="submitted && !product.species">Name is
+								required.</small>
+						</div>
+						<div class="field mb-2">
+							<label for="breed">Breed</label>
+							<input type="text" pInputText id="breed" disabled="true" [(ngModel)]="product.breed"
+								required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !product.breed}" />
+
+						</div>
+					</div>
+				</div>
+			</ng-template>
+
+			<ng-template pTemplate="footer">
+				<div class="row">
+					<div class="col-6 mx-auto d-flex justify-content-center">
+						<button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-danger"
+							(click)="hideDialog()"></button>
+					</div>
+				</div>
+			</ng-template>
+		</p-dialog>
+
+
+		<p-dialog [(visible)]="completeProductDialog" header="Confirm" [modal]="true" [style]="{width:'450px'}">
+			<div class="flex align-items-center justify-content-center">
+				<i class="pi pi-exclamation-triangle mr-3" style="font-size: 2rem"></i>
+				<h5 *ngIf="product">Are you sure you want to accept this request?</h5>
+			</div>
+			<ng-template pTemplate="footer">
+				<div class="row">
+					<div class="col-6 mx-auto d-flex justify-content-center">
+						<button pButton pRipple icon="pi pi-times pl-2" class="p-button-danger" label="No"
+							(click)="completeProductDialog = false"></button>
+						<button pButton pRipple icon="pi pi-check pl-2" class="p-button-success" label="Yes"
+							(click)="confirmComplete()"></button>
+
+
+					</div>
+				</div>
+			</ng-template>
+
+		</p-dialog>
+
+		<p-dialog [(visible)]="deleteProductsDialog" header="Confirm" [modal]="true" [style]="{width:'450px'}">
+			<div class="flex align-items-center justify-content-center">
+				<i class="pi pi-exclamation-triangle mr-3" style="font-size: 2rem"></i>
+				<span>Are you sure you want to delete selected request?</span>
+			</div>
+			<ng-template pTemplate="footer">
+				<button pButton pRipple icon="pi pi-times" class="p-button-text" label="No"
+					(click)="deleteProductsDialog = false"></button>
+				<button pButton pRipple icon="pi pi-check" class="p-button-text" label="Yes"
+					(click)="confirmDeleteSelected()"></button>
+			</ng-template>
+		</p-dialog>
+	</div>
+</div>

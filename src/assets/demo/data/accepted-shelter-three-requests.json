@@ -1,0 +1,13 @@
+[
+    {
+        "id": 4,
+        "image_url": "cat3.jpeg",
+        "pet_type": "Cat",
+        "pet_address": "456 Elm Avenue, Townsville, USA",
+        "user_information": {
+            "name": "Jane Smith",
+            "phone_number": "01157082412",
+            "user_address": "456 Elm Avenue, Townsville, USA"
+        }
+    }
+]

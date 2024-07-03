@@ -1,0 +1,35 @@
+[
+    {
+        "id": 3,
+        "image_url": "dog2.webp",
+        "pet_type": "Dog",
+        "pet_address": "123 Main Street, Cityville, USA",
+        "user_information": {
+            "name": "John Doe",
+            "phone_number": "01152363287",
+            "user_address": "123 Main Street, Cityville, USA"
+        }
+    },
+    {
+        "id": 4,
+        "image_url": "cat3.jpeg",
+        "pet_type": "Cat",
+        "pet_address": "456 Elm Avenue, Townsville, USA",
+        "user_information": {
+            "name": "Jane Smith",
+            "phone_number": "01157082412",
+            "user_address": "456 Elm Avenue, Townsville, USA"
+        }
+    },
+    {
+        "id": 5,
+        "image_url": "cat4.webp",
+        "pet_type": "Cat",
+        "pet_address": "888 Cedar Street, Hilltop, USA",
+        "user_information": {
+            "name": "Sarah Taylor",
+            "phone_number": "01004883543",
+            "user_address": "888 Cedar Street, Hilltop, USA"
+        }
+    }
+]

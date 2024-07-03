@@ -1,0 +1,28 @@
+[
+    {
+        "fullname": "John Doe",
+        "address": "123 Main Street, Cityville, USA",
+        "phone_number": "01157082411",
+        "pet_information": {
+            "name": "Buddy",
+            "age": 3,
+            "species": "Dog",
+            "breed": "Golden Retriever",
+            "description": "Friendly and energetic dog, loves to play fetch and go on walks.",
+            "image_url": "dog2.webp"
+        }
+    },
+    {
+        "fullname": "Jane Smith",
+        "address": "456 Elm Avenue, Townsville, USA",
+        "phone_number": "01157082412",
+        "pet_information": {
+            "name": "Whiskers",
+            "age": 2,
+            "species": "Cat",
+            "breed": "Tabby",
+            "description": "Affectionate cat, enjoys cuddling and lounging in sunny spots.",
+            "image_url": "cat3.jpeg"
+        }
+    }
+]

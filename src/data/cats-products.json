@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": "3000",
+            "code": "c01fdo4g7",
+            "name": "Premium Cat Food",
+            "description": "Healthy and nutritious premium cat food",
+            "image": "61uz6kLKY3L._AC_SX679_.jpg",
+            "price": 90,
+            "category": "Foods",
+            "quantity": 50,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "3001",
+            "code": "c23nwl633",
+            "name": "Cat Collar",
+            "description": "Stylish and durable cat collar for everyday use",
+            "image": "71l3oLsE7ML._AC_SX679_.jpg",
+            "price": 30,
+            "category": "Accessories",
+            "quantity": 100,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "3002",
+            "code": "z23abz3c1",
+            "name": "Cat Shampoo",
+            "description": "Gentle and moisturizing cat shampoo for shiny coat",
+            "image": "s-l960 (2).jpg",
+            "price": 25,
+            "category": "Care and cleanliness",
+            "quantity": 30,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "3003",
+            "code": "24asdw2eg",
+            "name": "Cat House",
+            "description": "Cozy and warm cat house for indoor relaxation",
+            "image": "71MWk0HHrNL._AC_SX679_.jpg",
+            "price": 50,
+            "category": "Homes",
+            "quantity": 10,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "3004",
+            "code": "d98bsdf34",
+            "name": "Cat Toy",
+            "description": "Interactive toy for mental stimulation and exercise",
+            "image": "611wYPcEZ-L._AC_SX679_.jpg",
+            "price": 20,
+            "category": "Accessories",
+            "quantity": 80,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "3005",
+            "code": "d23nds42k",
+            "name": "Cat Bed",
+            "description": "Soft and cozy bed for quality cat naps",
+            "image": "s-l1600.jpg",
+            "price": 60,
+            "category": "Homes",
+            "quantity": 25,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "3006",
+            "code": "a32fsd56c",
+            "name": "Cat Treats",
+            "description": "Delicious treats for rewarding your cat",
+            "image": "s-l1600 (1).png",
+            "price": 15,
+            "category": "Foods",
+            "quantity": 60,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "3007",
+            "code": "m38dskl93",
+            "name": "Cat Leash",
+            "description": "Lightweight leash for safe outdoor adventures with your cat",
+            "image": "s-l960 (3).jpg",
+            "price": 35,
+            "category": "Accessories",
+            "quantity": 70,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        }
+    ]
+}

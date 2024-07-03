@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": "4000",
+            "code": "b01fdo4g7",
+            "name": "Premium Bird Seed Mix",
+            "description": "High-quality seed mix for a variety of birds",
+            "image": "orva00401_1.jpeg",
+            "price": 20,
+            "category": "Foods",
+            "quantity": 100,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "4001",
+            "code": "b23nwl633",
+            "name": "Bird Cage",
+            "description": "Spacious and sturdy cage for pet birds",
+            "image": "71Xl-qBa0wL.__AC_SX300_SY300_QL70_ML2_.jpg",
+            "price": 80,
+            "category": "Homes",
+            "quantity": 50,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "4002",
+            "code": "z23abz3c1",
+            "name": "Bird Toys Assortment",
+            "description": "Assorted toys to keep pet birds mentally and physically stimulated",
+            "image": "s-l1600 (2).png",
+            "price": 30,
+            "category": "Accessories",
+            "quantity": 80,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "4003",
+            "code": "24asdw2eg",
+            "name": "Bird Perch",
+            "description": "Natural wood perch for birds to rest and exercise",
+            "image": "64a69e50bee30d108d5f18e2-cozycabin-natural-parrot-bird-perch.jpg",
+            "price": 15,
+            "category": "Accessories",
+            "quantity": 120,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "4004",
+            "code": "d98bsdf34",
+            "name": "Bird Bath",
+            "description": "Shallow bath for birds to bathe and stay clean",
+            "image": "s-l1600 (1).jpg",
+            "price": 25,
+            "category": "Accessories",
+            "quantity": 70,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        }
+    ]
+}

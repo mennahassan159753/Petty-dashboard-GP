@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": "5000",
+            "code": "f01fdo4g7",
+            "name": "Tropical Fish Food",
+            "description": "Nutritious food flakes for tropical fish species",
+            "image": "s-l1600 (2).jpg",
+            "price": 15,
+            "category": "Foods",
+            "quantity": 100,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "5001",
+            "code": "f23nwl633",
+            "name": "Fish Tank",
+            "description": "Glass aquarium tank suitable for various fish species",
+            "image": "s-l1600 (3).png",
+            "price": 150,
+            "category": "Homes",
+            "quantity": 50,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "5002",
+            "code": "z23abz3c1",
+            "name": "Aquarium Heater",
+            "description": "Adjustable heater to maintain optimal water temperature in aquariums",
+            "image": "s-l960 (4).jpg",
+            "price": 30,
+            "category": "Accessories",
+            "quantity": 80,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "5003",
+            "code": "24asdw2eg",
+            "name": "Fish Tank Decorations Set",
+            "description": "Assorted decorations to create an engaging underwater environment",
+            "image": "s-l960 (1).jpg",
+            "price": 40,
+            "category": "Accessories",
+            "quantity": 120,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "5004",
+            "code": "d23nds42k",
+            "name": "Aquarium Air Pump",
+            "description": "Quiet and efficient pump for providing oxygen to fish tank water",
+            "image": "s-l1600 (3).jpg",
+            "price": 25,
+            "category": "Accessories",
+            "quantity": 90,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        }
+    ]
+}

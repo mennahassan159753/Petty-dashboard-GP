@@ -1,0 +1,148 @@
+{
+	"data": [
+		{
+			"id": "2000",
+			"code": "d01fdo4g7",
+			"name": "Premium Dog Food",
+			"description": "Healthy and nutritious premium dog food",
+			"image": "Birbo Premium Adult Dog Dry Food With Meat_.png",
+			"price": 100,
+			"category": "Foods",
+			"quantity": 50,
+			"inventoryStatus": "INSTOCK",
+			"rating": 5
+		},
+		{
+			"id": "2001",
+			"code": "d23nwl633",
+			"name": "Dog Collar",
+			"description": "Stylish and durable dog collar for everyday use",
+			"image": "rd-reflective-martingale-dog-collar.jpg",
+			"price": 120,
+			"category": "Accessories",
+			"quantity": 100,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2002",
+			"code": "z23abz3c1",
+			"name": "Dog Shampoo",
+			"description": "Pretty Pooch Dog Shampoo 2/5L - Baby Powder Fragrance",
+			"image": "264153.jpg",
+			"price": 115,
+			"category": "Care and cleanliness",
+			"quantity": 30,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2003",
+			"code": "24asdw2eg",
+			"name": "Dog House",
+			"description": "Cozy and weather-resistant dog house for indoor or outdoor use",
+			"image": "s-l960.png",
+			"price": 120,
+			"category": "Homes",
+			"quantity": 10,
+			"inventoryStatus": "INSTOCK",
+			"rating": 5
+		},
+		{
+			"id": "2004",
+			"code": "d98bsdf34",
+			"name": "Chew Toy",
+			"description": "Durable chew toy for dental health and entertainment",
+			"image": "png-clipart-dog-toys-puppy-chew-toy-bone-dog-purple-child-thumbnail.png",
+			"price": 110,
+			"category": "Accessories",
+			"quantity": 80,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2005",
+			"code": "d23nds42k",
+			"name": "Dog Bed",
+			"description": "Comfortable and plush dog bed for quality rest",
+			"image": "s-l1600.png",
+			"price": 415,
+			"category": "Homes",
+			"quantity": 25,
+			"inventoryStatus": "INSTOCK",
+			"rating": 5
+		},
+		{
+			"id": "2006",
+			"code": "a32fsd56c",
+			"name": "Training Treats",
+			"description": "Delicious and nutritious treats for dog training sessions",
+			"image": "s-l960.jpg",
+			"price": 58,
+			"category": "Foods",
+			"quantity": 60,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2007",
+			"code": "m38dskl93",
+			"name": "Dog Leash",
+			"description": "Strong and reliable dog leash for control during walks",
+			"image": "s-l960 (1).jpg",
+			"price": 118,
+			"category": "Accessories",
+			"quantity": 70,
+			"inventoryStatus": "INSTOCK",
+			"rating": 5
+		},
+		{
+			"id": "2008",
+			"code": "nbm2v5k45",
+			"name": "Dog Brush",
+			"description": "Grooming brush for maintaining your dog's coat",
+			"image": "7177O6kbq4L._AC_SX679_.jpg",
+			"price": 121,
+			"category": "Care and cleanliness",
+			"quantity": 40,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2009",
+			"code": "hj45nmo87",
+			"name": "Dog Raincoat",
+			"description": "Waterproof raincoat to keep your dog dry during rainy walks",
+			"image": "00609a8f-8692-4a37-9ad3-e98ed6aa4f29.jpg",
+			"price": 125,
+			"category": "Accessories",
+			"quantity": 20,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2010",
+			"code": "l32nvld32",
+			"name": "Dog Nail Clippers",
+			"description": "Safe and easy-to-use nail clippers for trimming your dog's nails",
+			"image": "Mr-Pen-Cat-Nail-Clipper-Cat-Nail-Trimmers-Cat-Claw-Clippers-Cat-Claw-Trimmers_7169e280-53e5-4c98-a59f-5b289835fbdb.e830bb78d843f706a9.webp",
+			"price": 110,
+			"category": "Care and cleanliness",
+			"quantity": 35,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "2011",
+			"code": "v3nmsd345",
+			"name": "Dog Dental Chew",
+			"description": "Chew toy designed to promote dental health by cleaning teeth and gums",
+			"image": "1-dentalife-dog-large-daily-mhi-1080x1080_0.png",
+			"price": 115,
+			"category": "Accessories",
+			"quantity": 50,
+			"inventoryStatus": "INSTOCK",
+			"rating": 5
+		}
+	]
+}
